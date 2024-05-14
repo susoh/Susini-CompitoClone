@@ -1,0 +1,30 @@
+   12  git add *
+   13  git commit -m "inserito nome"
+   14  git add *
+   15  git add stampa.cpp
+   16  git commit -m "inserito nome"
+   17  git branch bugFix
+   18  git checkout bugFix
+   19  git add *
+   20  git commit -m "errore risolto in stampa"
+   21  git merge bugFix
+   22  git merge master
+   23  git branch
+   24  git merge bugFix master
+   25  git merge ?
+   26  git merge
+   27  git branch master
+   28  git merge master
+   29  git checkout master
+   30  git merge bugFix
+   31  git branch bugFix -rm
+   32  git -rm bugFix
+   33  git --elp
+   34  git --help
+   35  git branch --help
+   36  git branch bugFix -r
+   37  git branch -r
+   38  git branch --help
+   39  git branch bugFix -d
+   40  git branch
+   41  history 30 > comandi.txt
